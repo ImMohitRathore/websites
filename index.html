@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>web</title>
+	<link rel="stylesheet" href="style.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+	<header>
+		<nav>
+
+			<div class="logo">
+				<img src="./images/logow.png " width="200" alt="">
+			</div>
+		<button class="cross"> <img src="./images/icon-hamburger.svg" alt=""></></button>
+			<div class="menu ">
+				<a href="">Home</a>
+				<a href="">Features</a>
+				<a href="">Booking</a>
+				<a href="">Login</a>
+			</div>
+		</nav>
+	</header>
+
+	<div class="container">
+		<div class="lefts animate__animated animate__jackInTheBox">
+			<h1 id ="h1">Future <br> On Your Hand </h1>
+			<button id="btn">Order Now</button>
+		</div>
+		<div class="right animate__animated animate__lightSpeedInLeft animate__delay-1s">
+			<img id="watch" src="./images/wat3.png" >
+		</div>
+	</div>
+
+	<div class="s-icon  animate__animated animate__lightSpeedInLeft animate__delay-2s">
+		<img src="./images/icon1.png" alt=""> 
+		<img src="./images/icon2.png" alt="">
+		<img src="./images/icon3.png" alt="">
+		<img src="./images/icon4.png" alt="">
+	</div>
+	
+
+
+	<script>
+		const cross = document.querySelector(".cross")
+		const menu = document.querySelector(".menu")
+		// const h1 = document.querySelector("#h1")
+
+		cross.addEventListener("click" , ()=>{
+				
+
+		     menu.classList.toggle("open")
+			 
+			
+
+
+			 
+
+	
+
+		})
+
+
+
+
+		
+
+
+	</script>
+</body>
+</html>
